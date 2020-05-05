@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="58" pref="58" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel_Ancho" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel_Alto" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel_Caja25m2" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel_CajasTotal" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel_Importe" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel_TipoMadera" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jText_Importe" pref="114" max="32767" attributes="0"/>
+                  <Component id="jText_TotalCajas" pref="114" max="32767" attributes="0"/>
+                  <Component id="jText_Alto" pref="114" max="32767" attributes="0"/>
+                  <Component id="jText_Ancho" max="32767" attributes="0"/>
+                  <Component id="jButton_Calcular" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jComboBox_Maderas" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace pref="83" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jLabel_Ancho" min="-2" max="-2" attributes="0"/>
+                  <Component id="jText_Ancho" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel_Alto" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="jText_Alto" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jLabel_TipoMadera" min="-2" max="-2" attributes="0"/>
+                  <Component id="jComboBox_Maderas" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jLabel_Caja25m2" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButton_Calcular" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jLabel_CajasTotal" min="-2" max="-2" attributes="0"/>
+                          <Component id="jText_TotalCajas" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                      <Component id="jLabel_Importe" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jText_Importe" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="47" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel_Ancho">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ancho:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel_Alto">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Alto:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel_TipoMadera">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tipo de Madera:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel_Caja25m2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Caja de 2.5 m2:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel_CajasTotal">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cajas a comprar:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel_Importe">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Importe a pagar:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jText_Ancho">
+    </Component>
+    <Component class="javax.swing.JTextField" name="jText_Alto">
+    </Component>
+    <Component class="javax.swing.JTextField" name="jText_TotalCajas">
+    </Component>
+    <Component class="javax.swing.JTextField" name="jText_Importe">
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton_Calcular">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calcular"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton_CalcularActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox_Maderas">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Item 1"/>
+            <StringItem index="1" value="Item 2"/>
+            <StringItem index="2" value="Item 3"/>
+            <StringItem index="3" value="Item 4"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+  </SubComponents>
+</Form>
