@@ -1,0 +1,21 @@
+
+
+2.11. Contesta a las siguientes preguntas referentes al ejercicio anterior (puedes crear un archivo
+.txt con las respuestas con la misma nomenclatura que el resto de ejercicios):
+
+• ¿Se podría resolver sin una clase interna?
+
+ Si
+
+• ¿Qué ventaja representa el tener los cálculos de nivel en una clase distinta a
+NotasAlumnos? 
+
+la clase notas referencia a las notas y la clase nivel referencia 
+al nivel , para tener mejor estrucurado el codigo lo mejor es separar las clases.
+esto nos permite comprender todo mejor y no mezclar cosas que no tiene que ver unas con 
+otras y luego a la hora de hacer cambios/mejoras/mantenimientos nos es mucho mas facil
+
+• ¿Podría ser la clase NivelClase una clase externa
+
+si, podriamos tener una clase estatica para el nivel y utilizarla desde notas
+o instanciar las dos clases desde el main y pasar parametros para usarlas
